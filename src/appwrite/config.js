@@ -124,7 +124,7 @@ export class Service{
         }
     }
 
-    //why I didn't I made this service async, because it doesn't return a promise.
+    //why didn't I made this service async, because it doesn't return a promise.
     getFilePreview(fileId){
         return this.bucket.getFilePreview(
             conf.appwriteBucketId,
